@@ -92,7 +92,6 @@ ul {
 
 #nav-top {
     display: flex;
-    align-items: center;
 }
 
 .nav-content {
@@ -144,7 +143,7 @@ ul {
 .new-webtoon-thumbnail img {
     width: 226px;
     position: absolute;
-    bottom: -143px;
+    bottom: -10.3em;
     left: 25px;
 }
 
@@ -172,7 +171,8 @@ ul {
 
 .nav-ad {
     width: 30%;
-    align-self: flex-end;
+    margin-top: 80px;
+    margin-left: 60px;
 }
 
 .nav-ad img {
