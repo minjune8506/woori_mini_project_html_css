@@ -212,6 +212,7 @@ ul {
 #nav-banner-button div {
     height: 12px;
 }
+
 /* footer  */
 footer {
     margin-top: 30px;
@@ -248,14 +249,14 @@ footer {
 }
 
 .footer-announce {
-    width: 1224px;
+    display: flex;
 }
 
 .announce-box {
     border: 1px solid;
     display: inline-flex;
-    width: 390px;
-    height: 130px;
+    flex: 1;
+    justify-content: center;
 }
 
 .announce-box-text {
@@ -276,8 +277,6 @@ footer {
     font-weight: 550;
 }
 
-.text-1 {
-}
 
 .text-2 {
     color: rgb(21, 180, 21);
