@@ -1,7 +1,18 @@
-/* Common */
-.container {
-    width: 1190px;
+* {
+	font-family: GmarketSansMedium;
+}
+
+body, ul, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
     margin: 0 auto;
+}
+
+.wrap {
+	margin: 0 5%;
 }
 
 a {
@@ -14,9 +25,71 @@ ul {
     padding-inline-start: 0;
 }
 
-/* 1번 */
+/* daily webtoon */
+.daily-webtoon-container {
+	width: inherit;
+	border: 1px solid #ebebeb;
+	display: flex;
+}
 
-/* 2번 */
+.day {
+	padding: 0 0.2rem;
+	border-collapse: collapse;
+	border: 1px solid #ebebeb;
+	display: flex;
+	flex-direction: column;
+}
+
+.day:hover {
+	background-color: #bfe6ff;
+	font-weight: bold;
+}
+
+.day-name {
+	padding: 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.webtoon-wrap {
+	position: relative;
+	padding-bottom: 0.5rem;
+}
+
+.webtoon-name {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.webtoon-img-wrap {
+	width: inherit;
+	height: 200px;
+}
+
+.webtoon-img {
+	height: inherit;
+	border-radius: 0.5rem;
+}
+
+.new-mark {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+    left: 0.25rem;
+    top: 0.25rem;
+    background-color: #00dc64;
+    font-size: 0.5rem;
+	font-weight: bold;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* nav */
+
 #nav-top {
     display: flex;
     align-items: center;
@@ -31,24 +104,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.new-mark {
-    display: flex;
-    width: 21px;
-    height: 21px;
-    background-color: #00dc64;
-    font-size: 10px;
-    border-radius: 50%;
-    align-items: center;
-    position: relative;
-    left: 5px;
-    top: 5px;
-}
-
-.new-mark span {
-    margin-left: 1.5px;
-    font-weight: bold;
 }
 
 #to-new-webtoon a {
@@ -116,9 +171,9 @@ ul {
 }
 
 .nav-ad {
-    width: 300px;
-    padding-top: 70px;
-    margin-left: 60px;
+    width: 30%;
+	align-self: flex-end;
+
 }
 
 .nav-ad img {
@@ -127,6 +182,11 @@ ul {
 }
 
 #nav-banner {
+	width: 100%;
+	height: 100px;
+}
+
+#nav-banner div {
     position: absolute;
 }
 
@@ -154,7 +214,143 @@ ul {
 #nav-banner-button div {
     height: 12px;
 }
+/* footer  */
+footer {
+    margin: 45px 45px 50px;
+}
 
-/* 3번 */
+.component-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 5px;
+}
 
-/* 4번 */
+.component-head-title {
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.tag-group {
+    flex-wrap: wrap;
+    max-height: 141px;
+    width: 840px;
+}
+
+.tag {
+    background: rgb(246, 246, 246);
+    margin: 0 6px 10px 0;
+    line-height: 37px;
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+    font-weight: 550;
+}
+
+.footer-announce {
+    width: 1224px;
+
+}
+
+.announce-box {
+    border: 1px solid;
+    display: inline-flex;
+    width: 390px;
+    height: 130px;
+}
+
+.announce-box-text {
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+}
+
+.announce-box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 550;
+
+}
+
+.text-1 {}
+
+.text-2 {
+    color: rgb(21, 180, 21);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-bottom li {
+    position: relative;
+    float: left;
+}
+
+.footer-bottom li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-bottom li a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.footer-bottom li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0.09rem;
+    height: 1rem;
+    background: #ccc;
+    transform: translateY(-50%);
+}
+
+.footer-bottom li:first-child:after {
+    display: none;
+}
+
+.footer-bottom li a {
+    display: block;
+    height: 81px;
+    padding: 0 10px;
+    line-height: 81px;
+}
+
+.mini-text {
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+.mini-dot::before {
+    content: "";
+    position: absolute;
+    left: 1;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    background: #ccc;
+    transform: translateY(-50%);
+}
