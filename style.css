@@ -6,7 +6,7 @@ body,
 ul,
 h3 {
     padding: 0;
-	margin: 0;
+    margin: 0;
 }
 
 .container {
@@ -69,7 +69,7 @@ ul {
 
 .webtoon-img {
     width: 100%;
-	height: 100%;
+    height: 100%;
     border-radius: 0.5rem;
 }
 
@@ -93,16 +93,15 @@ ul {
 #nav-top {
     display: flex;
     justify-content: space-between;
-	align-items: center;
-	margin-bottom: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
 }
-
 
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-	margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 #to-new-webtoon a {
@@ -115,7 +114,7 @@ ul {
 }
 
 .new-webtoon-list li {
-	padding-right: 0.1rem;
+    padding-right: 0.7rem;
     width: 272px;
 }
 
