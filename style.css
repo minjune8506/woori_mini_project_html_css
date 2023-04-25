@@ -1,78 +1,160 @@
-* {
-	font-family: GmarketSansMedium;
+/* Common */
+.container {
+    width: 1190px;
+    margin: 0 auto;
 }
 
-html, body {
-	width: 100%;
-	height: 100%;
-}
-
-body, ul, h3 {
-	margin: 0;
-	padding: 0;
+a {
+    text-decoration: none;
+    color: black;
 }
 
 ul {
-	list-style: none;
+    list-style: none;
+    padding-inline-start: 0;
 }
 
-.container {
-	border: 1px solid #ebebeb;
-	display: flex;
+/* 1번 */
+
+/* 2번 */
+#nav-top {
+    display: flex;
+    align-items: center;
 }
 
-.day {
-	padding: 0 0.2rem;
-	border-collapse: collapse;
-	border: 1px solid #ebebeb;
-	display: flex;
-	flex-direction: column;
+.nav-content {
+    width: 840px;
+    margin-bottom: 30px;
 }
 
-.day:hover {
-	background-color: #bfe6ff;
-	font-weight: bold;
-}
-
-.day-name {
-	padding: 1rem;
-	font-size: 1rem;
-	font-weight: bold;
-	text-align: center;
-}
-
-.webtoon-wrap {
-	position: relative;
-	padding-bottom: 0.5rem;
-}
-
-.webtoon-name {
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	font-weight: bold;
-}
-
-.webtoon-img-wrap {
-	width: inherit;
-	height: 200px;
-}
-
-.webtoon-img {
-	height: inherit;
-	border-radius: 0.5rem;
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .new-mark {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-    left: 0.25rem;
-    top: 0.25rem;
+    display: flex;
+    width: 21px;
+    height: 21px;
     background-color: #00dc64;
-    font-size: 0.5rem;
-	font-weight: bold;
+    font-size: 10px;
     border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
+    align-items: center;
+    position: relative;
+    left: 5px;
+    top: 5px;
 }
+
+.new-mark span {
+    margin-left: 1.5px;
+    font-weight: bold;
+}
+
+#to-new-webtoon a {
+    color: #666666;
+}
+
+.new-webtoon-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-webtoon-list li {
+    width: 272px;
+}
+
+.new-webtoon-thumbnail {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 165px;
+}
+
+#tbg1 {
+    background: rgb(255, 234, 183);
+}
+
+#tbg2 {
+    background: rgb(224, 212, 248);
+}
+
+#tbg3 {
+    background: rgb(211, 215, 169);
+}
+
+.new-webtoon-thumbnail .box {
+    position: relative;
+}
+
+.new-webtoon-thumbnail img {
+    width: 226px;
+    position: absolute;
+    bottom: -143px;
+    left: 25px;
+}
+
+.new-webtoon-desc {
+    margin-top: 15px;
+}
+
+.new-webtoon-desc div {
+    margin: 5px 0;
+}
+
+.new-webtoon-title {
+    font-weight: bold;
+}
+
+.new-webtoon-author {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.new-webtoon-summary {
+    color: #666666;
+    font-size: 14px;
+}
+
+.nav-ad {
+    width: 300px;
+    padding-top: 70px;
+    margin-left: 60px;
+}
+
+.nav-ad img {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#nav-banner {
+    position: absolute;
+}
+
+#nav-banner-button {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    right: 73px;
+    bottom: 0;
+    border-radius: 100%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-banner-button:hover {
+    cursor: pointer;
+}
+
+#nav-banner-button div {
+    height: 12px;
+}
+
+/* 3번 */
+
+/* 4번 */
