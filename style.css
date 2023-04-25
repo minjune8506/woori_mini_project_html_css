@@ -6,6 +6,7 @@ body,
 ul,
 h3 {
     padding: 0;
+	margin: 0;
 }
 
 .container {
@@ -93,17 +94,16 @@ ul {
 #nav-top {
     display: flex;
     justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
 }
 
-.nav-content {
-    width: 840px;
-    margin-bottom: 30px;
-}
 
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+	margin-bottom: 1rem;
 }
 
 #to-new-webtoon a {
@@ -168,10 +168,6 @@ ul {
 .new-webtoon-summary {
     color: #666666;
     font-size: 14px;
-}
-
-.nav-ad {
-    margin-top: 80px;
 }
 
 .nav-ad img {
