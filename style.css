@@ -92,6 +92,7 @@ ul {
 
 #nav-top {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav-content {
@@ -170,9 +171,7 @@ ul {
 }
 
 .nav-ad {
-    width: 30%;
     margin-top: 80px;
-    margin-left: 60px;
 }
 
 .nav-ad img {
