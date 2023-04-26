@@ -87,3 +87,5 @@ html이 아닌 css 속성만으로 화면에 px을 조작할 수 있는 것을 �
 ## Light house
 
 ![light house](images/lighthouse.png)
+
+> 이미지 불러오는 서버에 따라 performance가 달라짐.
