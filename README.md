@@ -19,7 +19,7 @@ https://dazzling-frangollo-fb6f0d.netlify.app/
 
 - 윤영인
 
-![part1](./images/part1.png)
+<img width="1212" alt="image" src="https://user-images.githubusercontent.com/38150034/234438067-f5e3c3ac-a47a-468f-b81d-d7d88c21cf38.png">
 
 ```plain text
 네이버 웹툰 페이지의 헤더 부분을 담당했습니다.
