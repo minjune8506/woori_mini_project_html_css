@@ -27,7 +27,7 @@
 ![part2](./images/part2.png)
 
 ```plain text
-CSS Layout에 대해 더 자세히 공부할 수 있었습니다.
+CSS Layout에 대해 더 자세히 공부할 수 있었고 특히 flex 속성을 활용할 수 있는 좋은 기회였습니다.
 SEO, W3C 표준 등을 새로 알게 되었습니다.
 이미지 위에 다른 태그를 겹쳐지게 하면서 position 속성을 이해할 수 있었습니다.
 ```
