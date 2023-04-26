@@ -16,22 +16,22 @@
 
 -   윤영인
 
-![part1](readme-image/part1.png)
+![part1](./images/part1.png)
 
 ### Part 2
 
 -   윤동열
 
-![part2](readme-image/part2.png)
+![part2](./images/part2.png)
 
 ### Part 3
 
 -   김민준
 
-![part3](readme-image/part3.png)
+![part3](./images/part3.png)
 
 ### Part 4
 
 -   박진영
 
-![part4](readme-image/part4.png)
+![part4](./images/part4.png)
